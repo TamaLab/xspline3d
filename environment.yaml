@@ -1,0 +1,24 @@
+name: xspline3d_env
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - numba>=0.61
+  - numpy>=2.2
+  - scipy>=1.15
+  - threadpoolctl>=3
+  - pip
+
+# You can install the environment with:
+#   conda env create -f environment.yaml
+#   conda activate xspline3d_env
+#
+# NOTE:
+# mpi4py is intended to be built from source using the system's MPI.
+# To force a source build, run after activating the env:
+#     MPICC=mpicc pip install --no-binary=mpi4py mpi4py
+#
+# Requirements:
+#   1. Load your system MPI module
+#   2. Set `MPICC=mpicc` (or equivalent)
+#   3. Have a C compiler available (gcc/clang)
