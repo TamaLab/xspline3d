@@ -90,8 +90,7 @@ If you use `xspline3d` in your research, please cite the following paper:
 > ACM, New York, NY, USA, 7 pages.
 > https://doi.org/10.1145/3784828.3786260
 
-An extended manuscript describing the algorithmic details is also available in
-the [paper/](paper/) directory.
+An extended manuscript is also available in the [paper/](paper/) directory.
 
 ---
 
